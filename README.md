@@ -56,7 +56,7 @@ ShakeDetector.unRegisterForShakeEvent(mShakeListener)
 # Contributing
  Please use the pull request procedure for contributing
  
-## License
+# License
 
     Copyright 2018 Tushar Dhole
 
