@@ -43,7 +43,7 @@ If the is requirement to handle shake events from non activity class, then just 
 ```Kotlin
         ShakeDetector.registerForShakeEvent(object : ShakeListener {
             override fun onShake() {
-                makeText(this@MainActivity, "Ok", LENGTH_LONG).show()
+                makeText(context, "Shake Detected!!", LENGTH_LONG).show()
             }
         })
 ```
